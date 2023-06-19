@@ -1,0 +1,91 @@
+.main-containt {
+  width: 100%;
+  margin-top: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60vw;
+  margin-top: 1vw;
+}
+
+.img-titulo img {
+  width: 15vw;
+  height: 14vw;
+  border-radius: 50%;
+  border: solid black 0.2vw;
+}
+
+
+
+
+.img-titulo h1 {
+  background-color: #03eba9;
+  font-size: 2.5vw;
+  font-weight: 900;
+  font-family: 'roboto';
+  border: solid black 0.2vw;
+  display: inline-block;
+  padding: 0.3vw;
+  padding-inline: 1vw;
+  border-radius: 0.5vw;
+}
+
+.descricao {
+  display: flex;
+  width: 70vw;
+  margin-top: 2vw;
+}
+
+
+.sobre-mim h1 {
+  border-bottom: solid black 0.2vw;
+  width: 10vw;
+  font-size: 2vw;
+  font-style: normal;
+}
+
+.sobre-mim :nth-child(2) {
+  margin-top: 1vw;
+}
+
+.sobre-mim>* {
+  margin-top: 1.5vw;
+}
+
+.sobre-mim h3 {
+  font-weight: lighter;
+  width: 30vw;
+}
+
+.sobre-mim i {
+  font-weight: 900;
+}
+
+.exp {
+  margin-top: 1.5vw;
+}
+
+.exp h1 {
+  border-bottom: solid black 0.2vw;
+  width: 22vw;
+  font-size: 2vw;
+  font-style: normal;
+}
+
+.barra {
+  margin-top: 1.5vw;
+  border: solid black 0.1vw;
+  margin-right: 3vw;
+}
+
+.exp p {
+  padding-top: 1vw;
+  font-weight: 550;
+  font-size: 1.03vw;
+}
