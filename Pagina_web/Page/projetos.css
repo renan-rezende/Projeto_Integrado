@@ -1,0 +1,66 @@
+.main-containt {
+  width: 100%;
+  margin-top: 1vw;
+  padding-left: 4vw;
+}
+
+
+.titulo-pagina {
+  background-color: #03eba9;
+  font-size: 2vw;
+  font-weight: 900;
+  font-family: 'roboto';
+  border: solid black 0.2vw;
+  display: inline-block;
+  padding: 0.3vw;
+  border-radius: 0.5vw;
+  padding-inline: 1VW;
+}
+
+.bloco {
+  display: flex;
+  margin-top: 1.5vw;
+  background-color: rgb(194, 194, 194);
+  height: 18vw;
+  width: 80vw;
+  border-radius: 1vw;
+}
+
+.bloco img {
+  margin-left: 3vw;
+  margin-top: 3vw;
+  width: 18vw;
+  height: 12vw;
+  border-radius: 1vw;
+}
+
+.conteudo {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  width: 56vw;
+}
+
+.conteudo h1 {
+  font-size: 2vw;
+  margin-top: 1vw;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.conteudo h2 {
+  margin-top: 1vw;
+  font-size: 1.1vw;
+  height: 10vw;
+}
+
+.conteudo button {
+  border: none;
+  padding: 0.3vw;
+  padding-inline: 1vw;
+  font-size: 1.1vw;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: #04BF8A;
+  cursor: pointer;
+  border: solid black 0.2vw;
+}

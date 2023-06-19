@@ -1,0 +1,60 @@
+.main-containt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+
+.bloco {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.bloco h1 {
+  border-top-left-radius: 0.5vw;
+  border-top-right-radius: 0.5vw;
+  width: 20vw;
+  padding: 0.5vw;
+  background-color: grey;
+}
+
+.conteudo {
+  border: solid black 0.2vw;
+  width: 45vw;
+  height: 17vw;
+  padding: 0.5vw;
+  background-color: #04BF8A;
+}
+
+.conteudo h2 {
+  font-size: 1.4vw;
+  font-weight: 100;
+}
+
+.conteudo img {
+  width: 2vw;
+  margin-top: 1.2vw;
+  margin-left: 0.5vw;
+  display: block;
+}
+
+.conteudo button {
+  margin-top: 2vw;
+  margin-left: 36vw;
+  display: block;
+  border: none;
+  padding: 0.3vw;
+  padding-inline: 1vw;
+  font-size: 1.1vw;
+  border-radius: 0.8vw;
+  font-weight: bolder;
+  background-color: rgb(174, 174, 174);
+  cursor: pointer;
+  border: solid black 0.2vw;
+}

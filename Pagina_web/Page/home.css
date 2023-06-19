@@ -1,0 +1,230 @@
+.main-containt {
+  width: 100%;
+  margin-top: 1vw;
+  padding-left: 4vw;
+}
+
+
+.h1-main-containt {
+  background-color: #03eba9;
+  font-size: 2vw;
+  font-weight: 900;
+  font-family: 'roboto';
+  border: solid black 0.2vw;
+  display: inline-block;
+  padding: 0.3vw;
+  border-radius: 0.5vw;
+}
+
+
+.user-coments {
+  display: flex;
+}
+
+.bloco-1 {
+  margin-top: 1vw;
+  margin-left: 1vw;
+  width: 38vw;
+}
+
+.bloco-2 {
+  margin-top: 0.75vw;
+  margin-left: 3vw;
+  width: 33vw;
+}
+
+.title-bloco-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4vw;
+}
+
+.title-bloco-1 h1 {
+  margin-left: 0.5vw;
+  font-size: 1.4vw;
+  font-weight: 350px;
+}
+
+
+
+.bloco-1 button {
+
+  border: none;
+  padding: 0.3vw;
+  font-size: 1.1vw;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: #04BF8A;
+  cursor: pointer;
+}
+
+
+.escrever-comentario {
+  background-color: #DFDFDF;
+  padding: 1vw;
+  border-radius: 10px;
+}
+
+.escrever-comentario :nth-child(1) {
+  font-style: italic;
+  font-size: 1.5vw;
+  margin-bottom: 0.5vw;
+}
+
+.escrever-comentario :nth-child(3) {
+  font-style: italic;
+  margin-top: 0.5vw;
+}
+
+.title-bloco-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4vw;
+}
+
+.title-bloco-2 h1 {
+  margin-left: 0.5vw;
+  font-size: 1.4vw;
+  font-weight: 350px;
+}
+
+.title-bloco-2 button {
+  border: none;
+  padding: 0.4vw;
+  font-size: 1.1vw;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: #04BF8A;
+  cursor: pointer;
+}
+
+
+.editar-comentario {
+  background-color: #DFDFDF;
+  padding: 1vw;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editar-comentario :last-child {
+  border: none;
+  padding-right: 0;
+}
+
+.bloquin {
+  padding-right: 2.5vw;
+  border-right: solid black 1px
+}
+
+.bloquin div {
+  padding: 0.4vw;
+  font-style: italic;
+}
+
+.main-containt>hr {
+  margin-top: 1vw;
+  border: none;
+  border-top: solid black 0.2vw;
+  margin-right: 9vw;
+}
+
+
+
+/*   COMENTARIO DOS USUARIOS   */
+
+.comentario-dos-usuarios {
+  display: flex;
+  background-color: #ffffff;
+  height: 6vw;
+  width: 74vw;
+  padding: 0.3vw;
+  margin-left: 1vw;
+  border-bottom: solid black 1px;
+}
+
+
+.main-containt :last-child {
+  border: none;
+}
+
+.perfil {
+  margin-left: 2vw;
+
+  display: flex;
+  background-color: #ffffff;
+}
+
+.perfil img {
+  border-radius: 50%;
+  border: solid black 1px;
+}
+
+.text-perfil {
+  font-style: italic;
+  width: 20vw;
+}
+
+.text-perfil h3 {
+  font-size: 1.4vw;
+  margin-left: 0.5vw;
+  font-weight: bolder;
+}
+
+.text-perfil h4 {
+  font-size: 1.2vw;
+  margin-top: 0.3vw;
+  margin-left: 0.9vw;
+  font-weight: bolder;
+}
+
+.text-perfil h5 {
+  font-size: 1vw;
+  margin-top: 0.4vw;
+  margin-left: 0.3vw;
+  font-weight: lighter;
+}
+
+.barra {
+  border: solid black 0.1vw;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+
+.post-comentario {
+  font-size: large;
+  margin-left: 1vw;
+}
+
+.comentario-curtir-comentar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vw;
+  width: 45vw;
+}
+
+.post-comentario h4 {
+  font-size: smaller;
+  font-weight: lighter;
+}
+
+
+.curtir-comentar {
+  display: flex;
+}
+
+.curtir-comentar img {
+  cursor: pointer;
+}
+
+.curtir-comentar :nth-child(1) {
+  margin-right: 1vw;
+  margin-top: 0.5vw;
+  width: 2vw;
+}
+
+.curtir-comentar :nth-child(2) {
+  margin-right: 1vw;
+  margin-top: 0.5vw;
+  width: 1.7vw;
+}

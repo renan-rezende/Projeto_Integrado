@@ -1,0 +1,71 @@
+.main-containt {
+  width: 100%;
+  margin-top: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-comunidades {
+  padding: 0.3vw;
+  margin-top: 1vw;
+  margin-bottom: 5vw;
+  background-color: #03eba9;
+  border: solid black 0.2vw;
+  border-radius: 0.5vw;
+  font-weight: 900;
+  font-size: 2.5vw;
+  font-family: 'roboto';
+}
+
+hr {
+  width: 70vw;
+  border: none;
+  border-top: 3px solid black;
+}
+
+.comunidade {
+  display: flex;
+  width: 60vw;
+}
+
+.comunidade img {
+  width: 13vw;
+  height: 13vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  margin-right: 3vw;
+}
+
+.descricao-button {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.descricao h1 {
+  font-size: 2vw;
+  font-style: italic;
+  border-bottom: solid black 0.2vw;
+  width: 17.6vw;
+}
+
+.descricao p {
+  padding-top: 1vw;
+  font-size: 1.4vw;
+  width: 45vw;
+}
+
+.descricao-button button {
+  border: none;
+  padding: 0.3vw;
+  font-size: 1.1vw;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: #04BF8A;
+  cursor: pointer;
+  width: 5vw;
+  border: solid black 2px;
+}
