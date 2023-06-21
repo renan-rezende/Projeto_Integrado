@@ -1,6 +1,6 @@
 # Repositório do Site/Banco de Talentos da Fortes Engenharia
 
-Este repositório contém os arquivos e recursos relacionados ao desenvolvimento do site/banco de talentos da empresa "Fortes Engenharia". O trabalho foi realizado como parte da integração de três disciplinas do curso de Ciência da Computação: Usabilidade e Interface do Usuário, Banco de Dados e Desenvolvimento de Software Web.
+Este repositório contém os arquivos e recursos relacionados ao desenvolvimento do site/banco de talentos da empresa "Fortes Engenharia". O trabalho foi realizado como parte da integração de três disciplinas do curso de Ciência da Computação: Experiência e Interface com Usuário, Banco de Dados e Desenvolvimento de Software Web.
 
 ## Descrição do Projeto
 
