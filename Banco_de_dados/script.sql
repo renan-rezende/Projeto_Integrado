@@ -82,44 +82,44 @@ COMMENT ON COLUMN skills.hard_skill IS 'descrição das hards skills do colabora
 COMMENT ON COLUMN skills.soft_skill IS 'descrição das soft skills do colaborador'
 
 
-ALTER TABLE banco_de_talentos.colaborador ADD CONSTRAINT cargo_colaborador_fk
+ALTER TABLE colaborador ADD CONSTRAINT cargo_colaborador_fk
 FOREIGN KEY (cargo_id)
-REFERENCES banco_de_talentos.cargo (cargo_id)
+REFERENCES cargo (cargo_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
-ALTER TABLE banco_de_talentos.colaborador_projeto ADD CONSTRAINT projetos_colaborador_projeto_fk
+ALTER TABLE colaborador_projeto ADD CONSTRAINT projetos_colaborador_projeto_fk
 FOREIGN KEY (projeto_id)
-REFERENCES banco_de_talentos.projetos (projeto_id)
+REFERENCES projetos (projeto_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
-ALTER TABLE banco_de_talentos.colaborador_comunidade ADD CONSTRAINT comunidade_colaborador_comunidade_fk
+ALTER TABLE colaborador_comunidade ADD CONSTRAINT comunidade_colaborador_comunidade_fk
 FOREIGN KEY (comuni_id)
-REFERENCES banco_de_talentos.comunidade (comuni_id)
+REFERENCES comunidade (comuni_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
-ALTER TABLE banco_de_talentos.skills ADD CONSTRAINT colaborador_skills_fk
+ALTER TABLE skills ADD CONSTRAINT colaborador_skills_fk
 FOREIGN KEY (colab_id)
-REFERENCES banco_de_talentos.colaborador (colab_id)
+REFERENCES colaborador (colab_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
-ALTER TABLE banco_de_talentos.colaborador_projeto ADD CONSTRAINT colaborador_colaborador_projeto_fk
+ALTER TABLE colaborador_projeto ADD CONSTRAINT colaborador_colaborador_projeto_fk
 FOREIGN KEY (colab_id)
-REFERENCES banco_de_talentos.colaborador (colab_id)
+REFERENCES colaborador (colab_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
-ALTER TABLE banco_de_talentos.colaborador_comunidade ADD CONSTRAINT colaborador_colaborador_comunidade_fk
+ALTER TABLE colaborador_comunidade ADD CONSTRAINT colaborador_colaborador_comunidade_fk
 FOREIGN KEY (colab_id)
-REFERENCES banco_de_talentos.colaborador (colab_id)
+REFERENCES colaborador (colab_id)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
